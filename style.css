@@ -1,0 +1,69 @@
+tr:nth-child(even) {
+    background-color: LightGreen;
+}
+
+tr:nth-child(3) {
+    background-color: LightBlue;
+}
+
+tr:nth-child(5) {
+    background-color: LightBlue;
+}
+
+tr td:nth-child(2) {
+    color: red;
+}
+
+tr td:nth-child(4) {
+    color: blue;
+}
+
+td:first-child {
+    font-style: italic;
+}
+
+tfoot tr td {
+    color: black !important;
+    font-style: normal !important;
+}
+
+dd:hover {
+    background-color: purple;
+}
+
+div.outer-content {
+    background-color: pink;
+    padding: 20px;
+    width: 75%;
+    float: none !important;
+}
+
+div.inner-content {
+    /* instructions said to make bg color blue but it was hard to read so I made it light blue instead */
+    background-color: LightBlue;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+img {
+    float: left;
+    width: 100px;
+    height: 125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
